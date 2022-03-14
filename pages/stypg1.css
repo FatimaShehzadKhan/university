@@ -1,0 +1,290 @@
+/* navigation bar area css */
+.navbar
+{
+    /* border: 2px solid black; */
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    /* background-image: linear-gradient(to bottom right, rgb(255, 160, 160), rgb(203, 248, 205), rgb(128, 129, 131));  */
+    /* background-color: rgb(163, 195, 218); */
+    height: 16vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .container-fluid a img
+{
+    /* border: 2px solid black; */
+    /* font-size: 20px; */
+    /* font-family: 'Staatliches', cursive; */
+    /* text-transform: capitalize; */
+    /* background-image: linear-gradient(to bottom right, rgb(255, 160, 160), rgb(203, 248, 205), rgb(128, 129, 131));  */
+    /* background-color: rgb(163, 195, 218); */
+    height: 29vh;
+    width: 30vw;
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    -moz-transform: scale(0.5);
+-webkit-transform: scale(0.5);
+-o-transform: scale(0.5);
+-ms-transform: scale(0.5);
+transform: scale(0.5);
+}
+nav.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover{
+    background-color: rgb(53, 52, 52);
+    color: rgb(231, 229, 229);
+}
+
+main #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    font-size: 45pt;
+    color: rgb(5, 5, 5);
+} 
+main #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption h5{
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    font-size: 30pt;
+    color: rgb(5, 5, 5);
+    /* text-decoration: overline; */
+    background-color: rgb(195, 195, 196);
+
+} 
+
+/* three sections area */
+
+
+div.welcome .row .col-sm-12 h3{
+    font-family: 'Staatliches', cursive !important;
+    letter-spacing: 2px;
+    padding: 19px 0px 13px 13px; /*top right bottom left*/
+    color: rgb(164, 206, 243);
+    font-size: 50pt;
+
+    /* background-image: url('../../../Downloads/pexels-idriss-meliani-2982449.jpg'); */
+} 
+div.welcome .row .col-sm-12 p{
+    font-family: 'Staatliches', cursive !important;
+    letter-spacing: 2px;
+    padding: 19px 0px 13px 13px; /*top right bottom left*/
+    color: rgb(164, 206, 243);
+    font-size: 20pt;
+
+    /* background-image: url('../../../Downloads/pexels-idriss-meliani-2982449.jpg'); */
+}
+
+div.welcome .row .col-md-4 .h-100 h2{
+    font-family: 'Staatliches', cursive !important;
+    letter-spacing: 2px;
+    padding: 19px 0px 10px 11px; /*top right bottom left*/
+    color: rgb(164, 206, 243);
+    font-size: 25pt;
+    text-decoration: underline;
+    /* text-decoration: none; */
+
+    /* background-image: url('../../../Downloads/pexels-idriss-meliani-2982449.jpg'); */
+}
+div.welcome .row .col-md-4 .h-100 button a:hover{
+    font-family: 'Staatliches', cursive !important;
+    letter-spacing: 4px;
+    padding: 19px 11px 13px 11px; /*top right bottom left*/
+    color: rgb(133, 133, 133);
+    background-color: rgb(255, 255, 255);
+    font-size: 15pt;
+    text-decoration: none;
+
+    /* background-image: url('../../../Downloads/pexels-idriss-meliani-2982449.jpg'); */
+}
+div.welcome .row .col-md-4 .h-100 button:hover{
+    font-family: 'Staatliches', cursive !important;
+    letter-spacing: 4px;
+    padding: 19px 11px 13px 11px; /*top right bottom left*/
+    color: rgb(133, 133, 133);
+    background-color: rgb(255, 255, 255);
+    font-size: 15pt;
+    text-decoration: none;
+
+    /* background-image: url('../../../Downloads/pexels-idriss-meliani-2982449.jpg'); */
+}
+
+div.welcome .row .col-md-4 button{
+    font-family: 'Staatliches', cursive !important;
+    letter-spacing: 4px;
+    padding: 19px 11px 13px 11px; /*top right bottom left*/
+    color: rgb(164, 206, 243);
+    font-size: 15pt;
+    text-decoration: none;
+
+    /* background-image: url('../../../Downloads/pexels-idriss-meliani-2982449.jpg'); */
+}  
+div.welcome .row .col-md-4 button a{
+    font-family: 'Staatliches', cursive !important;
+    letter-spacing: 4px;
+    padding: 19px 0px 13px 13px; /*top right bottom left*/
+    color: rgb(164, 206, 243);
+    font-size: 15pt;
+    text-decoration: none;
+
+    /* background-image: url('../../../Downloads/pexels-idriss-meliani-2982449.jpg'); */
+}   
+div.welcome {
+    box-sizing: border-box;
+    background-image: url('../images/uni1.jpg');
+    /* height: 60vh;
+    width: 90vw;  */
+    padding: 35px 20px;
+
+} 
+
+section.info2 div.container-fluid{
+    margin-top: 13px;
+    font-family: 'Staatliches', cursive !important;
+    letter-spacing: 2px;
+    padding: 19px 0px 13px 13px; /*top right bottom left*/
+    background-color: rgb(167, 169, 170);
+    /* margin: 13px 0px 0px 0px; */
+    
+}
+
+section.info2 div.container-fluid .row h3{
+    margin: 13px 0px 13px 0px;
+    text-align: center;
+    font-size: 30pt;
+    text-decoration: underline;
+}
+section.info2 div.container-fluid .row .col-sm-5 p{
+    margin: 13px 2px 13px 16px;
+    text-align: justify;
+}
+section.info2 div.container-fluid .row .col-sm-5 iframe{
+    margin: 15px 0px 10px 16px;
+    /* text-align: justify; */
+}
+
+/* footer area css */
+
+.footer .container-fluid{
+    font-family: 'Staatliches', cursive !important;
+    letter-spacing: 2px;
+    padding: 19px 0px 13px 13px; /*top right bottom left*/
+    /* max-width: 1170px; */
+    /* margin: auto;   */
+    margin: 13px 0px;
+    background-color: rgb(167, 169, 170);
+}
+
+/* .footer .container-fluid .row{
+    display: flex;
+    flex-wrap: wrap;
+} */
+/* .col-sm-5{
+    width: 40%;
+    /* padding: 5 25px; */
+/*}
+.col-sm-3{
+    width: 20%;
+    /* padding: 5 25px; */
+ 
+.footer .container-fluid .row .col-sm-5{
+    /* height: 30vh;
+    width: 30vw; */
+
+    /* margin: 0px 20px 0px 0px; */
+    justify-content: center;
+}
+.footer .container-fluid .row .col-sm-5 h4{
+    /* height: 30vh;
+    width: 30vw; */
+    font-size: 30pt;
+    margin: 0px 0px 20px 0px;
+    justify-content: center;
+    align-self: center;
+    color: rgb(24, 24, 24);
+    text-decoration: overline;
+}
+
+.footer .container-fluid .row .col-sm-5 img{
+    height: 40vh;
+    width: 20vw;
+    margin: 10px 0px 10px 0px;
+    /* justify-content: center; */
+}
+
+.footer .container-fluid .row .col-sm-5 .card {
+    /* height: 40vh;
+    width: 30vw; */
+    background-repeat: no-repeat;
+     margin: 20px 0px 10px 0px; 
+    /* justify-content: center; */
+    /* -moz-transform: scale(0.5);
+-webkit-transform: scale(0.5);
+-o-transform: scale(0.5);
+-ms-transform: scale(0.5);
+transform: scale(0.5); */
+}
+.footer .container-fluid .row .col-sm-5{
+    font-family: 'Staatliches', cursive !important;
+    letter-spacing: 2px;
+    padding: 19px 0px 13px 13px; /*top right bottom left*/
+    /* font-size: 26px; */
+    /* text-decoration: underline; */
+    /* margin: 15px 0px 20px 0px; */
+    /* font-weight: light; */
+    /* position: relative; */
+    box-sizing: border-box;
+    /* text-align: justify; */
+
+}
+
+.footer .container-fluid .row .col-sm-3 h4{
+    /* height: 50vh;
+    width: 45vw; */
+    color: rgb(53, 52, 52);
+    margin: 20px 0px 20px 0px;
+    text-decoration: overline;
+    font-family: 'Staatliches', cursive !important;
+    letter-spacing: 2px;
+    padding: 19px 0px 13px 13px;
+    /* justify-content: center; */
+}
+.col-sm-3 ul{
+    list-style: none;
+}
+.col-sm-3 ul li a{
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    /* transition: all 0.3s ease; */
+    padding: 19px 0px 15px 13px; /*top right bottom left*/
+    /* margin: 6px 0px; */
+
+}
+.col-sm-3 ul li a:hover{
+    color: black;
+    /* padding-left: 10px; */
+    text-decoration: underline;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 7px 7px;
+}
+.col-sm-3 .sociallinks a{
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    /* transition: all 0.3s ease; */
+    padding: 19px 0px 15px 13px; /*top right bottom left*/
+    /* margin: 6px 0px; */
+    font-size: 20pt;
+
+}
+.col-sm-3 .sociallinks a i{
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    /* transition: all 0.3s ease; */
+    padding: 19px 0px 15px 13px; /*top right bottom left*/
+    /* margin: 6px 0px; */
+    font-size: 20pt;
+
+}
+

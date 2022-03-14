@@ -1,0 +1,447 @@
+/* header css */
+/* .navbar
+{
+    /* border: 2px solid black; */
+    /*font-size: 20px;
+    font-family: 'Staatliches', cursive;
+    text-transform: capitalize;
+    /* background-image: linear-gradient(to bottom right, rgb(255, 160, 160), rgb(203, 248, 205), rgb(128, 129, 131));  */
+    /*background-color: rgb(163, 195, 218);
+    height: 14vh;
+    justify-content: center;
+    align-items: center;
+
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    color: rgb(52, 87, 73);
+    text-decoration: none;
+    display: inline;
+    padding: 0px 2px 0px 2px;
+    letter-spacing: 2px;
+
+}
+.navbar ul li{
+    padding: 20px 2px 0px 2px;
+}
+
+.navbar ul .right-bar li{
+    padding: 0px 12px 0px 0px;
+}
+.navbar ul li a {
+    color: rgb(52, 87, 73);
+    font-weight: lighter;
+    text-decoration: none;
+}
+.navbar ul li p{
+    display: inline;
+    padding: 0px ;
+}
+.navbar ul li a:hover{
+    /* color: rgb(0, 0, 0); */
+    /*letter-spacing: 4px;
+    background-color: rgb(240, 247, 241);
+    border-radius: 1px;
+    padding: 10px 10px;
+    border: 1px solid;
+
+}
+.left-bar{
+    align-items: baseline;
+    float: left;
+}
+.right-bar-2 li form{
+    display: inline-block;
+
+}
+/* .right-bar-2 li form input{
+    width: 10vw;
+
+} */
+/*.navbar ul .right-bar li input{
+    display: inline;
+    width: 10vw;
+    margin-left: 170px;
+}
+.navbar ul .right-bar li button{
+    display: inline;
+    /* width: 10vw; */
+    /*border: 1px solid black;
+    color: rgb(52, 87, 73);
+    background-color: rgb(163, 195, 218);;
+}
+
+.navbar ul .right-bar li button:hover{
+    display: inline;
+    /* width: 10vw; */
+    /*border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+}
+.navbar ul .right-bar{
+    padding-left: 17vw;
+} */
+
+/* navigation bar area css */
+
+.navbar
+{
+    /* border: 2px solid black; */
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    /* background-image: linear-gradient(to bottom right, rgb(255, 160, 160), rgb(203, 248, 205), rgb(128, 129, 131));  */
+    /* background-color: rgb(163, 195, 218); */
+    height: 16vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .container-fluid a img
+{
+    /* border: 2px solid black; */
+    /* font-size: 20px; */
+    /* font-family: 'Staatliches', cursive; */
+    /* text-transform: capitalize; */
+    /* background-image: linear-gradient(to bottom right, rgb(255, 160, 160), rgb(203, 248, 205), rgb(128, 129, 131));  */
+    /* background-color: rgb(163, 195, 218); */
+    height: 29vh;
+    width: 30vw;
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    -moz-transform: scale(0.5);
+-webkit-transform: scale(0.5);
+-o-transform: scale(0.5);
+-ms-transform: scale(0.5);
+transform: scale(0.5);
+}
+nav.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover{
+    background-color: rgb(53, 52, 52);
+    color: rgb(231, 229, 229);
+}
+
+/* main #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    font-size: 45pt;
+    color: rgb(5, 5, 5);
+} 
+main #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption h5{
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    font-size: 30pt;
+    color: rgb(5, 5, 5);
+    /* text-decoration: overline; */
+    /*background-color: rgb(195, 195, 196);
+
+}  */
+
+  
+/* main information and two buttons css */
+div.my-main .row .col-sm-6 a{
+    border: 1px solid gray;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}
+div.my-main .row .col-sm-6 a:hover{
+    background-color: rgb(164, 206, 243);
+
+}    
+
+div.my-main .row {
+    color: rgb(53, 52, 52);
+    margin: 19px 0px 19px 0px;
+}
+
+div.my-main .row .col-sm-6 h3{
+    color: rgb(53, 52, 52);
+}
+div.my-main .row .col-sm-6 img{
+    /* color: rgb(53, 52, 52); */
+    height: 50vh;
+    width: 45vw;
+}
+/* .my-main .row .col-sm-6 a.btn-secondary:hover{
+    background-color: rgb(164, 206, 243);
+} */
+
+
+/* video area css */
+
+.my-vid .container .row .col h3{
+    text-decoration: underline;
+}
+
+.my-vid {
+    background-color: rgb(201, 201, 201);
+    margin: 0px 0px 20px 0px;
+}
+
+.my-vid .container .row .col{
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    padding: 19px 0px 13px 13px; /*top right bottom left*/
+    text-align: center;
+    justify-content: center;
+}
+.my-vid .container .row .col h3{
+    font-family: 'Staatliches', cursive !important;
+    letter-spacing: 2px;
+    padding: 19px 0px 13px 13px; /*top right bottom left*/
+}
+
+/* 2 cards area css */
+
+.my-main .row{
+    text-align: center;
+}
+.my-main .row .col-sm-5 h3{
+    text-decoration: underline;
+}
+.my-main .row .col-sm-6 h3{
+    text-decoration: underline;
+}
+
+.container .row .col-sm-6 h3{
+    font-size: 52px;
+    margin: 20px 0px;
+    color: rgb(164, 206, 243);
+    font-family: 'Staatliches', cursive;
+}
+
+.container .row .col-sm-6 a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+a.btn-first{
+    /* background-color: rgb(69, 110, 100); */
+    background: transparent;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(69, 110, 100);
+}
+a.btn-second{
+    /* background-color: rgb(69, 110, 100); */
+    color: rgb(0, 0, 0);
+    background: transparent;
+    border: 1px solid rgb(69, 110, 100);
+}
+
+a.btn-second:hover{
+    /* background-color: rgb(69, 110, 100); */
+    color: rgb(0, 0, 0);
+    /* background: transparent; */
+    border: 1px solid rgb(69, 110, 100);
+    background-color: rgb(69, 110, 100);
+}
+
+a.btn-first:hover{
+    /* background-color: rgb(69, 110, 100); */
+    color: rgb(0, 0, 0);
+    /* background: transparent; */
+    border: 1px solid rgb(69, 110, 100);
+    background-color: rgb(69, 110, 100);
+}
+
+.row .col-sm-5 {
+
+    background-color: rgb(201, 201, 201,0.5);
+    font-size: 30pt;
+        font-family: 'Staatliches', cursive !important;
+        letter-spacing: 2px;
+        padding: 19px 0px 13px 13px; /*top right bottom left*/
+        /* font-size: 26px; */
+        /* text-decoration: underline; */
+        /* margin: 15px 0px 20px 0px; */
+        /* font-weight: light; */
+        /* position: relative; */
+        box-sizing: border-box;
+        text-align: center;
+
+    
+}
+.row{
+    margin-bottom: 20px;
+}
+.row .col-sm-5 h3{
+    font-size: 30pt;
+}
+
+.row .col-sm-5 i{
+    margin: 15px 0px 0px 0px;
+    font-size: 70pt;
+}
+
+.row .col-sm-5 a{
+    font-size: 15pt;
+    text-decoration: none;
+    color: #000;
+}
+.row .col-sm-5 a:hover{
+    /* font-size: 15pt;
+    text-decoration: none;
+    color: #000; */
+    text-decoration: underline;
+}
+
+.row .col h4{
+    font-family: 'Staatliches', cursive !important;
+        letter-spacing: 2px;
+        padding: 19px 0px 13px 13px; /*top right bottom left*/
+    
+}
+
+
+
+/* footer area css */
+
+.footer .container-fluid{
+    font-family: 'Staatliches', cursive !important;
+    letter-spacing: 2px;
+    padding: 19px 0px 13px 13px; /*top right bottom left*/
+    /* max-width: 1170px; */
+    /* margin: auto;   */
+    margin: 13px 0px;
+    background-color: rgb(167, 169, 170);
+}
+
+/* .footer .container-fluid .row{
+    display: flex;
+    flex-wrap: wrap;
+} */
+/* .col-sm-5{
+    width: 40%;
+    /* padding: 5 25px; */
+/*}
+.col-sm-3{
+    width: 20%;
+    /* padding: 5 25px; */
+ 
+.footer .container-fluid .row .col1{
+    /* height: 30vh;
+    width: 30vw; */
+
+    /* margin: 0px 20px 0px 0px; */
+    justify-content: center;
+    margin: 0px 0px 0px 30px;
+}
+.footer .container-fluid .row .col-sm-5 h4{
+    /* height: 30vh;
+    width: 30vw; */
+    font-size: 30pt;
+    margin: 0px 0px 20px 0px;
+    justify-content: center;
+    align-self: center;
+    color: rgb(24, 24, 24);
+    text-decoration: overline;
+}
+.footer .container-fluid .row .col-sm-5 {
+    /* height: 30vh;
+    width: 30vw; */
+    /* font-size: 30pt;
+    margin: 0px 0px 20px 0px;
+    justify-content: center;
+    align-self: center;
+    color: rgb(24, 24, 24);
+    text-decoration: overline; */
+    background-color: rgb(167, 169, 170);
+}
+
+.footer .container-fluid .row .col-sm-5 p{
+    /* height: 30vh;
+    width: 30vw; */
+    font-size: 14pt;
+    /*margin: 0px 0px 20px 0px;
+    justify-content: center;
+    align-self: center;
+    color: rgb(24, 24, 24);
+    text-decoration: overline; */
+    /* background-color: rgb(167, 169, 170); */
+}
+.footer .container-fluid .row .col-sm-5 img{
+    height: 20vh;
+    width: 20vw;
+    margin: 10px 0px 10px 0px;
+    /* justify-content: center; */
+}
+
+.footer .container-fluid .row .col-sm-5 .card {
+    /* height: 40vh;
+    width: 30vw; */
+    background-repeat: no-repeat;
+     margin: 20px 0px 10px 0px; 
+    /* justify-content: center; */
+    /* -moz-transform: scale(0.5);
+-webkit-transform: scale(0.5);
+-o-transform: scale(0.5);
+-ms-transform: scale(0.5);
+transform: scale(0.5); */
+}
+.footer .container-fluid .row .col-sm-5{
+    font-family: 'Staatliches', cursive !important;
+    letter-spacing: 2px;
+    padding: 19px 0px 13px 13px; /*top right bottom left*/
+    /* font-size: 26px; */
+    /* text-decoration: underline; */
+    /* margin: 15px 0px 20px 0px; */
+    /* font-weight: light; */
+    /* position: relative; */
+    box-sizing: border-box;
+    /* text-align: justify; */
+
+}
+
+.footer .container-fluid .row .col-sm-3 h4{
+    /* height: 50vh;
+    width: 45vw; */
+    color: rgb(53, 52, 52);
+    margin: 20px 0px 20px 0px;
+    text-decoration: overline;
+    font-family: 'Staatliches', cursive !important;
+    letter-spacing: 2px;
+    padding: 19px 0px 13px 13px;
+    /* justify-content: center; */
+}
+.col-sm-3 ul{
+    list-style: none;
+}
+.col-sm-3 ul li a{
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    /* transition: all 0.3s ease; */
+    padding: 19px 0px 15px 13px; /*top right bottom left*/
+    /* margin: 6px 0px; */
+
+}
+.col-sm-3 ul li a:hover{
+    color: black;
+    /* padding-left: 10px; */
+    text-decoration: underline;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 7px 7px;
+}
+.col-sm-3 .sociallinks a{
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    /* transition: all 0.3s ease; */
+    padding: 19px 0px 15px 13px; /*top right bottom left*/
+    /* margin: 6px 0px; */
+    font-size: 20pt;
+
+}
+.col-sm-3 .sociallinks a i{
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    /* transition: all 0.3s ease; */
+    padding: 19px 0px 15px 13px; /*top right bottom left*/
+    /* margin: 6px 0px; */
+    font-size: 20pt;
+
+}
+

@@ -1,0 +1,431 @@
+/* navigation bar area css */
+
+.navbar
+{
+    /* border: 2px solid black; */
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    /* background-image: linear-gradient(to bottom right, rgb(255, 160, 160), rgb(203, 248, 205), rgb(128, 129, 131));  */
+    /* background-color: rgb(163, 195, 218); */
+    height: 16vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .container-fluid a img
+{
+    /* border: 2px solid black; */
+    /* font-size: 20px; */
+    /* font-family: 'Staatliches', cursive; */
+    /* text-transform: capitalize; */
+    /* background-image: linear-gradient(to bottom right, rgb(255, 160, 160), rgb(203, 248, 205), rgb(128, 129, 131));  */
+    /* background-color: rgb(163, 195, 218); */
+    height: 29vh;
+    width: 30vw;
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    -moz-transform: scale(0.5);
+-webkit-transform: scale(0.5);
+-o-transform: scale(0.5);
+-ms-transform: scale(0.5);
+transform: scale(0.5);
+}
+nav.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover{
+    background-color: rgb(53, 52, 52);
+    color: rgb(231, 229, 229);
+}
+
+main #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    font-size: 45pt;
+    color: rgb(5, 5, 5);
+} 
+main #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption h5{
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    font-size: 30pt;
+    color: rgb(5, 5, 5);
+    /* text-decoration: overline; */
+    background-color: rgb(195, 195, 196);
+
+} 
+
+
+main #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption p{
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 4px;
+    font-size: 55pt;
+    color: rgb(5, 5, 5);
+    text-decoration: underline;
+    /* border: 1px double rgb(233, 233, 233); */
+    background-color: rgb(255, 255, 255, 0.65);
+    /* opacity: 1110; */
+
+} 
+/* .carousel-inner >.carousel-item > img, .carousel-inner > .carousel-item > a > img {
+  min-height: 300px;    /* Set slide height here */
+
+
+
+
+/* my about area css */
+
+section.my-about{
+    /* height: 45vh; */
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(94, 124, 145);
+}
+section.my-about .cont-uni-info{
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+
+}
+section.my-about .cont-uni-info h3{
+    padding: 19px 0px 13px 13px; /*top right bottom left*/
+    text-decoration: underline;
+}
+section.my-about .cont-uni-info p{
+    padding: 0px 13px 13px 13px; /*top right bottom left*/
+}
+section.my-about .container .p-4 .col-md-6 h1{
+    padding: 0px 13px 13px 13px; /*top right bottom left*/
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    /* padding: 19px 0px 13px 13px; top right bottom left */
+    text-decoration: underline;
+
+}
+
+
+/* my course area css */
+
+section.my-course{
+    display: flex;
+    /* center the flex items in flex box  */
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(195, 195, 196);
+}
+section.my-course .my-card{
+    display: flex;
+    /* width: 160px; */
+    margin: 20px 14px;
+    background-color: rgb(94, 124, 145);
+    border: 1px double ;
+    
+    
+}
+section.my-course .my-card img{
+    height: 30vh;
+    
+}
+
+div.my-courses h3{
+    padding: 19px 0px 13px 13px; /*top right bottom left*/
+    text-decoration: underline;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+}
+div.my-courses{
+    background-color: rgb(195, 195, 196);
+
+}
+section h3{
+    padding: 19px 0px 13px 13px; /*top right bottom left*/
+    text-decoration: underline;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+}
+section p{
+    padding: 19px 0px 13px 13px; /*top right bottom left*/
+}
+.my-teacher-sec{
+    background-color: rgb(163, 195, 218);
+    /* display: flex; */
+}
+.my-teacher{
+    display: flex;
+}
+.my-teacher-sec .my-teacher img{
+    /* background-color: rgb(163, 195, 218); */
+    /* width: 100%; */
+    height: 30%;
+}
+.my-teacher-sec h3{
+    padding: 19px 0px 13px 13px; /*top right bottom left*/
+    text-decoration: underline;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.my-teacher-sec .my-teacher-info button{
+    background-color:rgb(163, 195, 218);
+    border: 1px solid;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    color: #000;   
+    margin: 19px 0px 19px 0px;
+}
+.my-teacher-sec .my-teacher-info button:hover{
+    background-color:rgb(195, 195, 196);
+    /* border: 1px solid;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    color: #000;    */
+}
+
+/* my contact section css */
+
+
+section.my-contact .container .row .col-md-6 label{
+    padding: 0px 0px 0px 13px; /*top right bottom left*/
+    text-decoration: underline;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}
+section.my-contact .container .row .col-md-4 label{
+    padding: 0px 0px 0px 13px; /*top right bottom left*/
+    text-decoration: underline;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}section.my-contact .container .row .col-md-2 label{
+    padding: 0px 0px 0px 13px; /*top right bottom left*/
+    text-decoration: underline;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}section.my-contact .container .row .col-12 label{
+    padding: 0px 0px 0px 13px; /*top right bottom left*/
+    text-decoration: underline;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}
+section.my-contact .mb-3{
+    width: 40vw;
+}
+section.my-contact .mb-3 .o2{
+    width: 40vw;
+    display: inline;
+}
+section.my-contact .row1 .col-4{
+    padding: 19px 0px 13px 13px; /*top right bottom left*/
+}
+section.my-contact{
+    background-color: rgb(94, 124, 145);
+    font-size: 15pt;
+}
+section.my-contact .my-contact-info button{
+    background-color:rgb(195, 195, 196);
+    border: 1px solid;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    color: #000;   
+    margin: 0px 0px 19px 0px;
+}
+.my-teacher-sec {
+    /* color:rgb(53, 52, 52); */
+    background-color: rgb(195, 195, 196);
+      
+}
+.my-teacher-sec .container-fluid {
+    /* color:rgb(53, 52, 52); */
+    background-color: rgb(195, 195, 196);
+      
+}    
+
+.my-teacher-sec .container-fluid .col-md-6 .row .col{
+    color:rgb(53, 52, 52);
+    background-color: rgb(163, 195, 218);
+}
+
+/* footer css  */
+.footer{
+    background-color: rgb(163, 195, 218);
+}
+.container{
+    /* border: 2px solid black; */
+    max-width: 1170px;
+    margin: auto;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 5 25px;
+}
+.footer-col h4{
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    padding: 19px 0px 13px 13px; /*top right bottom left*/
+    /* font-size: 26px; */
+    text-decoration: underline;
+    /* margin: 15px 0px 20px 0px; */
+    /* font-weight: light; */
+    /* position: relative; */
+    box-sizing: border-box;
+
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li a{
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    /* transition: all 0.3s ease; */
+    padding: 19px 0px 15px 13px; /*top right bottom left*/
+    /* margin: 6px 0px; */
+
+}
+.footer-col ul li a:hover{
+    color: black;
+    /* padding-left: 10px; */
+    text-decoration: underline;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 7px 7px;
+}
+.footer-col .sociallinks a i{
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    /* transition: all 0.3s ease; */
+    padding: 19px 0px 15px 13px; /*top right bottom left*/
+    /* margin: 6px 0px; */
+    font-size: 20pt;
+
+}
+
+
+/* footer area css */
+
+.footer .container-fluid{
+    font-family: 'Staatliches', cursive !important;
+    letter-spacing: 2px;
+    padding: 19px 0px 13px 13px; /*top right bottom left*/
+    /* max-width: 1170px; */
+    /* margin: auto;   */
+    margin: 13px 0px;
+    background-color: rgb(167, 169, 170);
+}
+
+/* .footer .container-fluid .row{
+    display: flex;
+    flex-wrap: wrap;
+} */
+/* .col-sm-5{
+    width: 40%;
+    /* padding: 5 25px; */
+/*}
+.col-sm-3{
+    width: 20%;
+    /* padding: 5 25px; */
+ 
+.footer .container-fluid .row .col-sm-5{
+    /* height: 30vh;
+    width: 30vw; */
+
+    /* margin: 0px 20px 0px 0px; */
+    justify-content: center;
+}
+.footer .container-fluid .row .col-sm-5 h4{
+    /* height: 30vh;
+    width: 30vw; */
+    font-size: 30pt;
+    margin: 0px 0px 20px 0px;
+    justify-content: center;
+    align-self: center;
+    color: rgb(24, 24, 24);
+    text-decoration: overline;
+}
+
+.footer .container-fluid .row .col-sm-5 img{
+    height: 40vh;
+    width: 20vw;
+    margin: 10px 0px 10px 0px;
+    /* justify-content: center; */
+}
+
+.footer .container-fluid .row .col-sm-5 .card {
+    /* height: 40vh;
+    width: 30vw; */
+    background-repeat: no-repeat;
+     margin: 20px 0px 10px 0px; 
+    /* justify-content: center; */
+    /* -moz-transform: scale(0.5);
+-webkit-transform: scale(0.5);
+-o-transform: scale(0.5);
+-ms-transform: scale(0.5);
+transform: scale(0.5); */
+}
+.footer .container-fluid .row .col-sm-5{
+    font-family: 'Staatliches', cursive !important;
+    letter-spacing: 2px;
+    padding: 19px 0px 13px 13px; /*top right bottom left*/
+    /* font-size: 26px; */
+    /* text-decoration: underline; */
+    /* margin: 15px 0px 20px 0px; */
+    /* font-weight: light; */
+    /* position: relative; */
+    box-sizing: border-box;
+    /* text-align: justify; */
+
+}
+
+.footer .container-fluid .row .col-sm-3 h4{
+    /* height: 50vh;
+    width: 45vw; */
+    color: rgb(53, 52, 52);
+    margin: 20px 0px 20px 0px;
+    text-decoration: overline;
+    font-family: 'Staatliches', cursive !important;
+    letter-spacing: 2px;
+    padding: 19px 0px 13px 13px;
+    /* justify-content: center; */
+}
+.col-sm-3 ul{
+    list-style: none;
+}
+.col-sm-3 ul li a{
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    /* transition: all 0.3s ease; */
+    padding: 19px 0px 15px 13px; /*top right bottom left*/
+    /* margin: 6px 0px; */
+
+}
+.col-sm-3 ul li a:hover{
+    color: black;
+    /* padding-left: 10px; */
+    text-decoration: underline;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 7px 7px;
+}
+.col-sm-3 .sociallinks a{
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    /* transition: all 0.3s ease; */
+    padding: 19px 0px 15px 13px; /*top right bottom left*/
+    /* margin: 6px 0px; */
+    font-size: 20pt;
+
+}
+.col-sm-3 .sociallinks a i{
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    /* transition: all 0.3s ease; */
+    padding: 19px 0px 15px 13px; /*top right bottom left*/
+    /* margin: 6px 0px; */
+    font-size: 20pt;
+
+}
